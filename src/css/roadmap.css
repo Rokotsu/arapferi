@@ -1,0 +1,43 @@
+.roadmap-main {
+    /*width: 90%;*/
+    /*margin-right: 6%;*/
+    /*margin-left: 6%;*/
+}
+
+.roadmap-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 45px;
+    margin-right: 6%;
+    margin-left: 6%;
+    width: 100%;
+}
+
+.roadmap-header h1 {
+    font-size: 60px;
+    color: white;
+}
+
+.roadmap-header p {
+    color: grey;
+    font-size: 16px;
+}
+
+.map-container img {
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.scroll {
+    position: relative;
+    margin-right: 6%;
+    margin-left: 6%;
+    bottom: 150px;
+}
+
+.scroll p {
+    font-size: 16px;
+    color: grey;
+}

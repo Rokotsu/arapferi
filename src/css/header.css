@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+.header-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 5%;
+    gap: 20%;
+    margin-bottom: 25%;
+}
+
+.header-item-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+
+p {
+    color: white;
+}
+
+.nav-lock-icon {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: -9px;
+}

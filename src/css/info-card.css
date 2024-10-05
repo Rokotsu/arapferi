@@ -1,0 +1,25 @@
+.info-card {
+    margin-right: 6%;
+    margin-left: 6%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.info-card p {
+    position: relative;
+    top: 35%;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: normal;
+}
+
+.info-card h2 {
+    font-size: 38px;
+    line-height: 45px;
+    position: relative;
+    top: 25%;
+    font-weight: normal;
+}

@@ -1,0 +1,48 @@
+.img-logo {
+    /*position: absolute;*/
+    width: 300px;
+    height: 80px;
+    left: 10px;
+    top: 300px;
+    margin-left: 6%;
+}
+
+.tagline {
+    position: relative;
+    left: 90px;
+    bottom: 10px;
+    font-size: 20px;
+    /*margin: 0;*/
+    font-weight: 400;
+    color: white;
+    margin-bottom: 3%;
+}
+
+.right-block {
+    position: absolute;
+    right: 20px;
+    margin-right: 6%;
+    font-size: 20px;
+    width: 650px;
+    text-align: right;
+}
+
+.kvekana-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    position: absolute;
+    top: 760px;
+    right: 20px;
+    margin-right: 6%;
+    margin-bottom: 10%;
+}
+
+.kvekana-buttons-2 {
+    margin-left: 6%;
+    position: absolute;
+    bottom: -150px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

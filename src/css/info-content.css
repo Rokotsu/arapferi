@@ -1,0 +1,35 @@
+.info-block {
+    margin: 0 auto;
+    margin-left: 6%;
+    margin-right: 6%;
+    /*justify-content: space-between;*/
+    /*flex-grow: 1;*/
+    width: 90%;
+}
+
+.info-block h2 {
+    color: white;
+}
+
+.info-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    /*gap: 5px;*/
+    width: 45%;
+    justify-content: space-between;
+    height: 100%;
+    text-align: left;
+}
+
+.info-block p {
+    line-height: 1.9;
+    padding: 10px 0;
+}
